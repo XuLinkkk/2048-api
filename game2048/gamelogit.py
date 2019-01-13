@@ -42,13 +42,13 @@ def game_state(mat):
             if mat[i][j] == 0:
                 return 'not over'
 
-   #for k in range(len(mat) - 1):  
-   #    if mat[len(mat) - 1][k] == mat[len(mat) - 1][k + 1]:
-   #        return 'not over'
+   for k in range(len(mat) - 1):  
+       if mat[len(mat) - 1][k] == mat[len(mat) - 1][k + 1]:
+           return 'not over'
 
-   #for j in range(len(mat) - 1): 
-   #    if mat[j][len(mat) - 1] == mat[j + 1][len(mat) - 1]:
-   #        return 'not over'
+   for j in range(len(mat) - 1): 
+       if mat[j][len(mat) - 1] == mat[j + 1][len(mat) - 1]:
+           return 'not over'
 
     return 'lose'
 
