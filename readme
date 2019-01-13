@@ -1,0 +1,6 @@
+/game2048/
+  agent.py      : my own agent
+  train.py      : Q-learning model and training
+  gamelogic.py  : a game which is based on game.py and can be called by tensorflow 
+/final weights/
+  eight model weight files
